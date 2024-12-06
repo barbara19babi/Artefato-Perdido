@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Artefato Perdido/title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="arqueologo.jpeg" alt="">
+            <p>Você é um arqueólogo destemido em busca de um artefato perdido. Sua jornada começa no Brasil, onde você
+                deve decidir seu primeiro destino. Onde você irá primeiro?</p>
+            <button class="btn-proximo" data-proximo="1">Amazônia: Escolha esta opção se você quer explorar a densa floresta tropical em busca de um templo antigo.</button>
+            <button class="btn-proximo" data-proximo="2">Pantanal: Escolha esta opção se você quer investigar os pântanos e sua rica biodiversidade.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="amazonia.jpeg" alt="">
+            <p>Você decidiu explorar a Amazônia.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar o templo: Você decide enfrentar a selva densa em busca de um templo perdido.</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa: Você sente que a selva é muito perigosa e decide voltar para casa.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="pantanal.jpeg" alt="">
+            <p>Você escolheu explorar o Pantanal.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar a vida selvagem: Você observa a rica biodiversidade e busca pistas sobre o artefato perdido.</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as áreas alagadas: Você decide explorar as áreas alagadas, onde acredita que o artefato pode estar escondido.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você encontrou o templo na Amazônia. Dentro do templo, você descobre um mapa que sugere que o próximo destino é o Deserto do Atacama, onde mais segredos aguardam.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Deserto do Atacama</button>
+        </div>
+        
+        <div class="passo" id="passo-4">
+            <img src="voltando-p-casa.jpeg" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você desistiu e voltou para casa. Fim da jornada.</p>
+        </div>
+        
+        <div class="passo" id="passo-5">
+            <p>Você descobriu algo sobre a vida selvagem. As pistas sugerem que o próximo destino é o Deserto do Atacama.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Deserto do Atacama.</button>
+        </div>
+        
+        <div class="passo" id="passo-6">
+            <p>Você decidiu explorar as áreas alagadas do Pantanal.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e investigar a vida selvagem: Após explorar as áreas alagadas, você decide voltar para investigar a vida selvagem.</button>
+        </div>
+        
+        <div class="passo" id="passo-7">
+            <p>Você está no Deserto do Atacama, enfrentando os desafios do deserto.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir as dunas à esquerda: Você decide seguir pelas dunas à esquerda, em busca do artefato.</button>
+            <button class="btn-proximo" data-proximo="10">Seguir as dunas à direita: Você escolhe seguir pelas dunas à direita, onde acredita que o artefato está enterrado.</button>
+        </div>
+        
+        <div class="passo" id="passo-8">
+            <p>Você voltou para investigar a vida selvagem.</p>
+            <button class="btn-proximo" data-proximo="7">Voltar para vida selvagem.</button>
+        </div>
+        
+        <div class="passo" id="passo-9">
+            <p>Você escolheu seguir as dunas à esquerda.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a caverna: Após uma longa caminhada pelas dunas, você encontra uma caverna que pode conter o artefato.</button>
+        </div>
+        
+        <div class="passo" id="passo-10">
+            <p>Você seguiu as dunas à direita.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho: Você decide que talvez o caminho pela esquerda fosse melhor.</button>
+        </div>
+        
+        <div class="passo" id="passo-11">
+            <img src="artefato.jpeg" alt="encontrando uma caverna no deserto do atacama">
+            <p>Você encontrou a caverna. Você explora a caverna e finalmente encontra o artefato perdido. Parabéns!</p>
+        </div>
+        
+        <div class="passo" id="passo-12">
+            <p>Você decidiu retornar e tentar o outro caminho. Após uma longa jornada, você finalmente encontra a caverna e o artefato perdido!</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a caverna</button>
+        </div>
+        </main>
+        <script src="script.js"></script>
+        </body>
+        </html>
+        
+        
